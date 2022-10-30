@@ -1,2 +1,6 @@
-# buscar-cep
-Página de buscar CEP feito com HTML5, CSS3 E JAVASCRIPT ES6+
+# Página de buscar CEP 
+
+
+- Stacks utilizada: HTML5, CSS3 e JAVASCRIPT ES6+
+
+Projeto Online: https://buscarcepgratis.netlify.app/
