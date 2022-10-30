@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="style.css" rel="stylesheet"/>
+    <title>Buscar CEP - Consultar CEP de GRAÇA</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png"/>
+    <!--SEO-->
+    <meta name="description" content="Consulte CEP gratis sem ganhar um centavo do seu bolso"/>
+    <meta name="author" content="Elieverton G"/>
+    <meta name="keywords" content="buscar cep,consultar cep,cep,cep consultar,consultar cep de graça, consultar cep gratis"/>
+    <!--SMO-->
+    <meta property="og:title" content="Buscar CEP - Consultar CEP de GRAÇA"/>
+    <meta property="og:site_name" content="Buscar CEP"/>
+    <meta property="og:description" content="Consulte CEP gratis sem ganhar um centavo do seu bolso"/>
+    <meta property="og:image" content="https://i.imgur.com/3T3hi1w.png"/>
+    <meta property="og:image:type" content="image/png"/>
+    <!--GOOGLE-FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/smoimg.png"/>
+            </div>
+        </header>
+
+        <main>
+            <div class="text-description-center">
+                <p>Informe seu CEP abaixo</p>
+                <div class="hr"></div>
+            </div>
+            <div class="contain-form">
+                <form method="get" action=".">
+                    <div class="field">
+                        <input name="cep" placeholder="Digite seu CEP" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);" />
+                    </div>
+                    <div class="result-name">
+                        <p>Resultado</p>
+                    </div>
+                    <div class="field">
+                        <p>Rua:</p>
+                        <input name="rua" type="text" id="rua" size="60"/>
+                    </div>
+                    <div class="field">
+                        <p>Bairro:</p>
+                        <input name="bairro" type="text" id="bairro" size="40"/>
+                    </div>
+                    <div class="field">
+                        <p>Cidade:</p>
+                        <input name="cidade" type="text" id="cidade" size="40"/>
+                    </div>
+                    <div class="field">
+                        <p>Estado:</p>
+                        <input name="uf" type="text" id="uf" size="2"/>
+                    </div>
+                   <div class="field">
+                        <p>Ibge:</p>
+                    <input name="ibge" type="text" id="ibge" size="8"/>
+                   </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
